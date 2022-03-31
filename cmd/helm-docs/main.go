@@ -10,8 +10,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/norwoodj/helm-docs/pkg/document"
-	"github.com/norwoodj/helm-docs/pkg/helm"
+	"github.com/bilcus/helm-docs/pkg/document"
+	"github.com/bilcus/helm-docs/pkg/helm"
 )
 
 func retrieveInfoAndPrintDocumentation(chartDirectory string, chartSearchRoot string, templateFiles []string, waitGroup *sync.WaitGroup, dryRun bool) {

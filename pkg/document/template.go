@@ -7,12 +7,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/norwoodj/helm-docs/pkg/util"
+	"github.com/bilcus/helm-docs/pkg/util"
 
 	"github.com/Masterminds/sprig"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/norwoodj/helm-docs/pkg/helm"
+	"github.com/bilcus/helm-docs/pkg/helm"
 )
 
 const defaultDocumentationTemplate = `{{ template "chart.header" . }}
